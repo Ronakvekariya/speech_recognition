@@ -3,7 +3,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 def predict(file_path , img_size = (128,512)):
-    # model01 = load_model('resnet_50.ker/as')
+    model01 = load_model('resnet_50.keras')
     # model02 = load_model('manual_cnn.keras')
     img = Image.open(file_path)
     img = img.resize(img_size)
@@ -12,7 +12,7 @@ def predict(file_path , img_size = (128,512)):
 
     print(img_array)
 
-    # label01 = model01.predict(img_array)
+    label01 = model01.predict(img_array)
     # label02 = model02.predict(img_array)
 
 
