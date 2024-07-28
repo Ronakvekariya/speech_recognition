@@ -4,7 +4,7 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\L1_Indiviual_Components\Sound_Classifier")
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\L1_Indiviual_Components\Image_Classifier")ss
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\L1_Indiviual_Components\Image_Classifier")
 import image_main , sound_main
 
 def Image_Classification():
